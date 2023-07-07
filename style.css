@@ -1,0 +1,128 @@
+html, body{
+    margin: 0;
+    height: 100%;
+
+}
+.image-box1,.image-last{
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.textOne{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    top: 50%;
+}
+.textlast{
+    text-align: center;
+    padding-top: 430px;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: lighter;
+}
+.txt,.txt-end{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    padding: 20px;
+}
+
+.section-one{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+   
+}
+.content-one{
+    color: rgb(124, 122, 122);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* text-transform: uppercase; */
+    color: rgb(86, 85, 85);
+    font-weight: 200;
+}
+h2{
+    text-transform: uppercase;
+}
+
+.image-box2{
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.image-box3{
+    background-image: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.textTwo{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    text-transform: uppercase;
+    padding-top: 224px;
+    margin-top: 60px;
+    font-weight: 800;
+}
+.textThree{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 110px;
+    font-weight: 800;
+}
+
+.txtTwo,.txtThree{
+    background-color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    opacity: 0.70;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-two{
+    text-align: center;
+    display: flex;
+}
+.content-two{
+    background-color:rgb(52, 51, 51) ;
+    color: rgb(182, 179, 179);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.section-three{
+    text-align: center;
+    display: flex;
+}
+.textThree{
+    padding-top: 56px;
+}
